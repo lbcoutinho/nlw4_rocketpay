@@ -1,0 +1,8 @@
+postgres:
+  container_name: postgres
+  image: postgres
+  ports:
+    - 5432:5432
+  environment:
+    - POSTGRES_PASSWORD=postgres
+    - POSTGRES_DB=nlw4_rocketpay_dev
