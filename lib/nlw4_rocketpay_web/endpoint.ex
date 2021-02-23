@@ -7,7 +7,7 @@ defmodule Nlw4RocketpayWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_nlw4_rocketpay_key",
-    signing_salt: "kP7W0Efu"
+    signing_salt: "UhM1Nd+k"
   ]
 
   socket "/socket", Nlw4RocketpayWeb.UserSocket,

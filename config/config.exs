@@ -13,10 +13,10 @@ config :nlw4_rocketpay,
 # Configures the endpoint
 config :nlw4_rocketpay, Nlw4RocketpayWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "TGwKyn6tc8YzVltnz/Z5f3jXrdjKpIP/iL3wSRQHVNBvesPcbkonBlEGU73UYrTv",
+  secret_key_base: "FKORFMhtk/C+7WARqWczesvj/VV/z6Hps+1R0XBXPN+HLc9OctsfCrgShMoUmFa7",
   render_errors: [view: Nlw4RocketpayWeb.ErrorView, accepts: ~w(json), layout: false],
   pubsub_server: Nlw4Rocketpay.PubSub,
-  live_view: [signing_salt: "ezNlB2Jc"]
+  live_view: [signing_salt: "vnmJgAaX"]
 
 # Configures Elixir's Logger
 config :logger, :console,
