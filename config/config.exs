@@ -18,6 +18,10 @@ config :nlw4_rocketpay, Nlw4RocketpayWeb.Endpoint,
   pubsub_server: Nlw4Rocketpay.PubSub,
   live_view: [signing_salt: "vnmJgAaX"]
 
+config :nlw4_rocketpay, Nlw4Rocketpay.Repo,
+  migration_primary_key: [type: :binary_id],
+  migration_foreign_key: [type: :binary_id]
+
 # Configures Elixir's Logger
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
