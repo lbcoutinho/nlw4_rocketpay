@@ -1,5 +1,5 @@
 defmodule Nlw4Rocketpay.NumbersTest do
-  use ExUnit.Case
+  use ExUnit.Case, async: true
 
   alias Nlw4Rocketpay.Numbers
 
